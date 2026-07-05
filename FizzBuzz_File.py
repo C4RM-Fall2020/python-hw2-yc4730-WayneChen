@@ -4,7 +4,7 @@ def FizzBuzz(start, finish):
    # if start == 0 or finish == 0:<-Optional
       #raise ValueError("start and finish cannot be 0")<- Optional
       
-  numvec = np.arange(Start, Finish)
+  numvec = np.arange(Start, Finish+1)
   objvec = np.array(numvec, dtype=object)
   #if don't use dtype = object, python might treat the item as integer
 
